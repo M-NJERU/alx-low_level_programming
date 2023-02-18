@@ -1,2 +1,2 @@
 #!/bin/bash
-gc -S -masm=intel
+gc -S -masm=intel.c
