@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  *
- * Return: 0(success)
+ * Return:0 (success)
  */
 int main(void)
 {
@@ -10,9 +10,10 @@ int main(void)
 
 	s = 'a';
 	while
-	(s <= 'z');
+	(s <= 'z') {
 	putchar(s);
 	s++;
-	putchar('\n');
-	return(0);
+	}
+	putchar ('\n');
+	return (0);
 }
