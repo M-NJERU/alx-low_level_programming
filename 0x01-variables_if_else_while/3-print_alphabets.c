@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  *
- * Return:(0)success
+ * Return: (0)success
  */
 int main(void)
 {
@@ -12,13 +12,13 @@ int main(void)
 	l = 'a';
 	u = 'A';
 	while (l <= 'z')
-{	putchar(l);
+{	putchar (l);
 	l++;
 	}
 	while (u <= 'Z')
-{	putchar(u);
+{	putchar (u);
 	u++;
 }
-putchar('\n');
-return(0);
+putchar ('\n');
+return (0);
 }
